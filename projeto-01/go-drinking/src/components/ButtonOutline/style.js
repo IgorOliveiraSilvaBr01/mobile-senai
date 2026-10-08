@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
     },
 
     tetxBtnOutline:{
-        color: colors.colorRoyalPurple,
+        color: colors.colorCyan,
         fontSize: 18,
         textAlign: "center"
     }
