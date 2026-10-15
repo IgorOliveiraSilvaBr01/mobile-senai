@@ -3,6 +3,9 @@ import { colors } from "../../themes/colors";
 import { fonts } from "../../themes/fonts";
 
 export const styles = StyleSheet.create({
+    containerOurOffers:{
+        gap: 10
+    },
     textTitle: {
         color: colors.colorWhite,
         fontSize: 25,
