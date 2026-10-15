@@ -3,6 +3,7 @@ import logo from '../../assets/image/logo.png';
 import { styles } from './style'
 import { OurOffers } from '../../components/OurOffers'
 import { useFonts } from 'expo-font';
+import { AvailableSizes } from '../../components/AvailableSizes';
 
 
 export const HomeScreen = () => {
@@ -17,6 +18,8 @@ export const HomeScreen = () => {
             <Image style={styles.logoHome} source={logo}/>
 
             <OurOffers />
+
+            <AvailableSizes />
 
         </View>
     )
