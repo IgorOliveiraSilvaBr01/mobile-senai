@@ -8,6 +8,7 @@ export const colors = { // exportação do objeto colors, permite que ele seja a
 
     // secondary
     colorVibrantViolet: "#5B00AA",
+    colorVibrantPink: "#C531D0",
     colorRoyalPurple: "#7600B4",
     colorDarkPurple: "#0C001A",
 
