@@ -4,6 +4,7 @@ import { styles } from './style'
 import { OurOffers } from '../../components/OurOffers'
 import { useFonts } from 'expo-font';
 import { AvailableSizes } from '../../components/AvailableSizes';
+import { OurHighlights } from '../../components/OurHighlights';
 
 
 export const HomeScreen = () => {
@@ -20,6 +21,8 @@ export const HomeScreen = () => {
             <OurOffers />
 
             <AvailableSizes />
+
+            <OurHighlights />
 
         </View>
     )
