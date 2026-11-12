@@ -2,6 +2,7 @@ import { View } from 'react-native'
 import { StartScreen } from './screens/StartScreen'
 import { HomeScreen } from './screens/HomeScreen'
 import { ProductsScreen } from './screens/ProductsScreen'
+import { DetailsProduct } from './screens/DetailsProducts'
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       {/* <StartScreen /> */}
       {/* <HomeScreen /> */}
       <ProductsScreen />
+      {/* <DetailsProduct /> */}
     </View>
   )
 }
