@@ -1,7 +1,7 @@
 import { View, Text, Image, Pressable } from 'react-native'
 import { Styles } from './style'
 
-export const CardProduct = ({image, title, description}) => {
+export const CardProduct = ({image, title, description, onPress}) => {
     return (
         <View style={Styles.cardContainer}>
             <Image source={image} style={Styles.imgProduct}/>
@@ -10,7 +10,7 @@ export const CardProduct = ({image, title, description}) => {
                 <Text style={Styles.descriptionProduct}>{description}</Text>
             </View>
 
-            <Pressable style={Styles.buttonLearnMore}>
+            <Pressable style={Styles.buttonLearnMore} onPress={onPress}>
                 <Text style={Styles.textButton}>Saiba Mais</Text>
             </Pressable>
         </View>
