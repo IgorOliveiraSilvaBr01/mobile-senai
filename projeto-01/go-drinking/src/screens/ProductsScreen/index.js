@@ -4,8 +4,12 @@ import filterIcon from '../../assets/image/filter-icon.png'
 import {styles } from "./style"
 import { CardProduct } from "../../components/CardProduct"
 import productImage from '../../assets/image/drink-image.png'
+import { useNavigation } from "@react-navigation/native"
 
 export const ProductsScreen = () =>{
+
+    const navigation = useNavigation();
+
     return(
         <ScrollView contentContainerStyle={styles.containerProductsScreen}>
 
@@ -22,14 +26,19 @@ export const ProductsScreen = () =>{
                     <Text style={styles.textHighlightOurProducts}>Produtos</Text>
                 </View>    
                 <View style={styles.containerProducts}>
-                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..."/>
-                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..."/>
-                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..."/>
-                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..."/>
-                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..."/>
-                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..."/>
-                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..."/>
-                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..."/>
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
+                    <CardProduct image={productImage} title="TNT Roxo" description="Nosso sabor conta como..." />
                 </View>            
             </View> 
 
