@@ -15,5 +15,8 @@ export const styles = StyleSheet.create({
         fontFamily: fonts.fontBody,
         color: colors.colorGray,
         textAlign: "center"
+    },
+    btnText:{
+        color: colors.colorWhite
     }
 })
